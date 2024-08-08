@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/t1"
+        android:text="Available Shows"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        ></TextView>
+    <ListView
+        android:layout_below="@id/t1"
+        android:id="@+id/showListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</RelativeLayout>
